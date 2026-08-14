@@ -1,4 +1,4 @@
-# Disable tokenizers parallelism warning
+
 import os
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 os.environ['HF_ENDPOINT'] = 'http://10.81.2.171:8090'
@@ -31,7 +31,7 @@ austrian_dataset_articles = pd.read_csv(csv_filename)
 df_valid = austrian_dataset_articles[austrian_dataset_articles['article_text'].notna()].copy()
 
 # Load model
-MODEL_ID = "oberbics/llama-3.1-8B-newspaper_argument_mining"
+MODEL_ID = "llama-3.1-8B-newspaper_argument_mining"
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
 tokenizer.pad_token = tokenizer.eos_token
