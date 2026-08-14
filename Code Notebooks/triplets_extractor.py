@@ -1,5 +1,5 @@
 """
-kg_extract_to_excel.py
+triplets_extractor.py
 """
 
 import re
