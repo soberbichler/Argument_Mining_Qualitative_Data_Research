@@ -15,18 +15,6 @@ The pipeline covers several stages of LLM-assisted qualitative research:
 5. **GRPO reinforcement-learning post-training** using task-specific reward functions.
 6. **Knowledge-graph extraction** from identified arguments using a constrained ontology.
 
-The argument-mining task produces structured annotations containing:
-
-```xml
-<argument>...</argument>
-<claim>...</claim>
-<explanation>...</explanation>
-<human_verification_needed>True/False</human_verification_needed>
-```
-
-A central principle of the pipeline is to distinguish **argumentative language from factual reporting**. Extracted arguments retain the wording of the historical source, while the `claim` and `explanation` fields capture the interpretation of the argumentative function.
-
----
 
 ## Repository Structure
 
