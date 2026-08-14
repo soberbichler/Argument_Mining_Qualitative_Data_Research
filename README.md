@@ -1,7 +1,5 @@
 # Argument Mining Pipeline and Graph-RAG
 
-# Argument Mining for Qualitative Data Research
-
 A research pipeline for applying **Large Language Models (LLMs) to argument mining in historical qualitative data**, including article extraction, supervised fine-tuning, reinforcement-learning post-training, evaluation, and knowledge-graph extraction.
 
 The repository was developed around historical newspaper material related to the **1908 Messina earthquake** and explores how LLMs can identify argumentative passages in noisy historical text while preserving the original wording of the source.
